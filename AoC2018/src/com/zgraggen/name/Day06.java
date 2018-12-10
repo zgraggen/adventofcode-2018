@@ -1,3 +1,4 @@
+package com.zgraggen.name;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.HashSet;
@@ -43,12 +44,12 @@ class ClosestPoint{
     }
 }
 
-public class Day6 {
+public class Day06 {
 
     public static void main(String[] args) {
         long start = System.currentTimeMillis();
         
-        ArrayList<String> lines = FileHelper.readFile("input.txt");
+        ArrayList<String> lines = FileHelper.readFile("Day06_Input.txt");
 
         int xmax = -1;
         int ymax = -1;

@@ -1,12 +1,13 @@
+package com.zgraggen.name;
 import java.util.ArrayList;
 import java.util.HashSet;
 
-public class Day5 {
+public class Day05 {
 
     public static void main(String[] args) {
         long start = System.currentTimeMillis();
 
-        ArrayList<String> lines = FileHelper.readFile("input");
+        ArrayList<String> lines = FileHelper.readFile("Day05_Input");
         System.out.println("Solution for 1= " + part1(lines.get(0).toCharArray(), '\n'));
 
         long middle = System.currentTimeMillis();
